@@ -1,0 +1,32 @@
+baseURL = "https://example.insurtent.com/"
+languageCode = "en-us"
+theme = "anubis2"
+title = "Insurtent"
+
+
+[menu]
+[[menu.main]]
+name = "Home"
+pageRef = "/"
+weight = 1
+
+[[menu.main]]
+name = "Blog" 
+pageRef = "/blog"
+weight = 2  
+
+[[menu.main]]
+name = "Jobs" 
+pageRef = "/jobs"
+weight = 3 
+
+[[menu.main]]
+name = "Podcasts"
+pageRef = "/podcasts"
+weight = 4 
+
+[markup.goldmark.renderer]
+unsafe = true # Enable unsafe mode for better rendering
+
+[markup.highlight]
+style = "base16-snazzy" 
